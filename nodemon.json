@@ -1,0 +1,6 @@
+{
+	"env": {
+		"MONGO_ATLAS_PW": "CloBoo71254980!",
+		"MONGO_ATLAS_PW2": "node-shop"
+	}
+}
