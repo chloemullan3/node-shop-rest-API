@@ -3,6 +3,7 @@ const app = express();
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
+//const particlesJS = require("particles.js");
 
 const productRoutes = require("./api/routes/products");
 const orderRoutes = require("./api/routes/orders");
@@ -15,6 +16,19 @@ mongoose.connect('mongodb://chloemullan:' + process.env.MONGO_ATLAS_PW +
 }
 );
 mongoose.Promise = global.Promise;
+
+//window.onload = function() {
+//  particles.init({
+//    selector: '.background'
+//  });
+//};
+//
+///* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+//particlesJS.load('particles-js', 'assets/particles.json', function() {
+//  console.log('callback - particles.js config loaded');
+//});
+
+
 
 app.use(morgan("dev"));
 app.use('/uploads', express.static('uploads'));
@@ -53,5 +67,7 @@ app.use((error, req, res, next) => {
     }
   });
 });
+
+
 
 module.exports = app;
