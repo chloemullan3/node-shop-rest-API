@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18bc28f3-a548-4cab-87da-16a9782b2bbe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Frontend/pages/Login/MLB.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/pages/LoginRegister/MLB.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/pages/Login/MLBG.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/pages/LoginRegister/MLBG.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/pages/Login/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/pages/LoginRegister/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/pages/Login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/pages/LoginRegister/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/pages/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/pages/LoginRegister/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/pages/Home/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/pages/Home/imageConfirmation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/pages/Home/imageSelect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/pages/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/pages/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/pages/images/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/pages/images/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/pages/images/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/pages/modelLoad/loadModel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/pages/LoginRegister/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/pages/LoginRegister/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/pages/LoginRegister/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/pages/LoginRegister/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/pages/LoginRegister/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/pages/LoginRegister/register.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +36,9 @@
         <counts>
           <entry key="css" value="3" />
           <entry key="gif" value="1" />
-          <entry key="html" value="4" />
-          <entry key="js" value="13" />
+          <entry key="html" value="7" />
+          <entry key="imageConfirmation" value="1" />
+          <entry key="js" value="14" />
           <entry key="json" value="5" />
           <entry key="md" value="1" />
           <entry key="png" value="1" />
@@ -38,25 +47,26 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="8" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="13" />
+          <entry key="JavaScript" value="14" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="32" />
-          <entry key="html" value="377" />
+          <entry key="css" value="105" />
+          <entry key="html" value="970" />
+          <entry key="imageConfirmation" value="18" />
           <entry key="js" value="97" />
           <entry key="json" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="32" />
-          <entry key="HTML" value="377" />
+          <entry key="CSS" value="105" />
+          <entry key="HTML" value="988" />
           <entry key="JSON" value="15" />
           <entry key="JavaScript" value="97" />
         </counts>
@@ -86,35 +96,61 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Frontend/pages/LoginRegister/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            <state relative-caret-position="165">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Frontend/pages/LoginRegister/login.css">
+        <entry file="file://$PROJECT_DIR$/Frontend/pages/Home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+            <state relative-caret-position="60">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/particles.js/particles.js">
+        <entry file="file://$PROJECT_DIR$/Frontend/pages/Home/imageSelect.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21435">
-              <caret line="1429" column="15" selection-start-line="1429" selection-start-column="15" selection-end-line="1429" selection-end-column="15" />
+            <state relative-caret-position="165">
+              <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+              <folding>
+                <element signature="n#style#0;n#option#0;n#select#0;n#h2#1;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#option#1;n#select#0;n#h2#1;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#option#2;n#select#0;n#h2#1;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#option#0;n#select#0;n#h2#3;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#option#1;n#select#0;n#h2#3;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#option#2;n#select#0;n#h2#3;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/particles.json">
+        <entry file="file://$PROJECT_DIR$/Frontend/pages/Home/imageConfirmation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Frontend/pages/modelLoad/loadModel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Frontend/pages/LoginRegister/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -122,8 +158,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Frontend/pages/LoginRegister/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="165">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -159,15 +195,20 @@
         <option value="$PROJECT_DIR$/Frontend/pages/Login/login.css" />
         <option value="$PROJECT_DIR$/Frontend/pages/Login/login.html" />
         <option value="$PROJECT_DIR$/Frontend/pages/register.html" />
+        <option value="$PROJECT_DIR$/Frontend/pages/Home/home.html" />
+        <option value="$PROJECT_DIR$/Frontend/pages/Home/imageSelect.html" />
+        <option value="$PROJECT_DIR$/Frontend/pages/Home/imageConfirmation" />
+        <option value="$PROJECT_DIR$/Frontend/pages/LoginRegister/styles.css" />
+        <option value="$PROJECT_DIR$/Frontend/pages/Home/imageConfirmation.html" />
+        <option value="$PROJECT_DIR$/Frontend/pages/modelLoad/loadModel.html" />
         <option value="$PROJECT_DIR$/Frontend/pages/LoginRegister/register.html" />
         <option value="$PROJECT_DIR$/Frontend/pages/LoginRegister/login.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
     <option name="y" value="23" />
-    <option name="width" value="492" />
+    <option name="width" value="844" />
     <option name="height" value="807" />
   </component>
   <component name="ProjectView">
@@ -196,6 +237,12 @@
             <path>
               <item name="node-rest" type="b2602c69:ProjectViewProjectNode" />
               <item name="node-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-rest" type="462c0819:PsiDirectoryNode" />
               <item name="Frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -203,6 +250,20 @@
               <item name="node-rest" type="462c0819:PsiDirectoryNode" />
               <item name="Frontend" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-rest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-rest" type="462c0819:PsiDirectoryNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="node-rest" type="b2602c69:ProjectViewProjectNode" />
@@ -219,15 +280,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548599450518" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548682258847" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Frontend/pages/images" />
+      <recent name="$PROJECT_DIR$/Frontend/pages/LoginRegister" />
+      <recent name="$PROJECT_DIR$/Frontend/styles" />
       <recent name="$PROJECT_DIR$/Frontend/pages/Login" />
       <recent name="$PROJECT_DIR$/Frontend/pages" />
-      <recent name="$PROJECT_DIR$/api/routes" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Frontend/pages/Login" />
@@ -330,35 +392,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/routes/products.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="1035">
+          <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/particles.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/particles.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/particles.min.js" />
+    <entry file="file://$PROJECT_DIR$/particles.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Frontend/pages/Login/particles.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Frontend/pages/Login/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1433" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/pages/Login/particles.json" />
+    <entry file="file://$PROJECT_DIR$/Frontend/pages/Login/js/app.js" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-340">
@@ -386,20 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/particles.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Frontend/pages/LoginRegister/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -407,17 +438,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/routes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particles.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/pages/LoginRegister/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/pages/modelLoad/loadModel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/pages/Home/imageConfirmation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/pages/Home/imageSelect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#option#0;n#select#0;n#h2#1;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#option#1;n#select#0;n#h2#1;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#option#2;n#select#0;n#h2#1;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#option#0;n#select#0;n#h2#3;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#option#1;n#select#0;n#h2#3;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#option#2;n#select#0;n#h2#3;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/pages/Home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Frontend/pages/LoginRegister/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        <state relative-caret-position="165">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Frontend/pages/LoginRegister/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="165">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>

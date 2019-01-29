@@ -2,7 +2,7 @@
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
 
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
 body{line-height:1}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 nav ul{list-style:none}
@@ -24,7 +24,7 @@ li{list-style:none}
         position: absolute;
         z-index: 10;
         width: 200px;
-        height: 220px;
+        height: 270px;
         background: #eee;
         top: 50%;
         left: 50%;
@@ -33,6 +33,22 @@ li{list-style:none}
         border-radius: 4px;
         box-sizing: border-box;
         z-index: 100;
+}
+
+.imgContainer{
+    float:left;
+    margin-left:100px;
+    margin-top: 100px;
+}
+
+.maskContainer{
+    float:right;
+    margin-right:100px;
+    margin-top: 100px;
+}
+
+p {
+  white-space: pre;
 }
 
 .panel-heading-2 {
