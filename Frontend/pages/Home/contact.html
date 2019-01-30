@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Home</title>
-    <link rel="stylesheet" media="screen" href="../LoginRegister/styles.css">
+    <title>Contact Us</title>
+    <link rel="stylesheet" media="screen" href="formStyle.css">
 </head>
 <body>
 
@@ -30,35 +30,13 @@
     </ul>
 </div>
 
-<div class="panel-heading">
-        <H1>Welcome!</H1>
-    <form action="../imageSelection/imageSelect.html" method="post">
-    <p><h2>Upload your image here to move onto the next step:</h2></p>
-    <p><h2>Upload Test Image: <input type="file" nchange="readURL(this);" name="filename" accept="image/jpeg, image/png"></h2></p>
-        <p><h2>Upload Image Mask: <input type="file" nchange="readURL(this);" name="filename" accept="image/jpeg, image/png"></h2></p>
-    <h2><input type="submit" value="Next"><br></h2>
-    </form>
-</div>
+<form>
+    <input name="name" placeholder="What is your name?" class="name" required />
+    <input name="emailaddress" placeholder="What is your email?" class="email" type="email" required />
+    <textarea rows="4" cols="50" name="subject" placeholder="Please enter your message" class="message" required></textarea>
+    <input name="submit" class="btn" type="submit" value="Send" />
+</form>
 
 
 </body>
 <div id="particles-js"></div>
-
-<script>
-    function readURL(input) {
-        if (input.files && input.files[0]) {
-            var reader = new FileReader();
-
-            reader.onload = function (e) {
-                $('#blah')
-                    .attr('src', e.target.result)
-                    .width(150)
-                    .height(200);
-            };
-
-            reader.readAsDataURL(input.files[0]);
-        }
-    }
-</script>
-
-</html>
