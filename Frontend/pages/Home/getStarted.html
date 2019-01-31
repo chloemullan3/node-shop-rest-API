@@ -7,6 +7,8 @@
 </head>
 <body>
 
+<img src="../images/removerlogo.png" class="logo" alt="Avatar">
+
 <div id='cssmenu'>
     <ul>
         <li class='active'><a href='home.html'><span>Home</span></a></li>
@@ -29,32 +31,34 @@
 </div>
 
 <div class="panel-heading">
-    <h2>Welcome to</h2>
-    <h1>The Digital Remover</h1>
-   <h2> <a href="../imageSelection/imageSelect.html">Ready to get started? Let's pick your images!</a></h2>
-    <h2> <a href="getStarted.html">Unsure how to get started? Click here!</a></h2>
-
+        <H1>Welcome!</H1>
+    <form action="../imageSelection/imageSelect.html" method="post">
+    <p><h2>Upload your image here to move onto the next step:</h2></p>
+    <p><h2>Upload Test Image: <input type="file" nchange="readURL(this);" name="filename" accept="image/jpeg, image/png"></h2></p>
+        <p><h2>Upload Image Mask: <input type="file" nchange="readURL(this);" name="filename" accept="image/jpeg, image/png"></h2></p>
+    <h2><input type="submit" value="Next"><br></h2>
+    </form>
 </div>
-
-<img id="item"
-     src="../images/removerlogo.png"
-     width="550" height="400">
-
-
-<script>
-var object = document.getElementById('item');
-
-object.onclick =function(){
-  object.style.top = 5 + 'px';
-  object.style.left = 10 + 'px';
-  object.style.width = 80 + 'px';
-  object.style.height = 60 + 'px';
-};
-</script>
 
 
 </body>
 <div id="particles-js"></div>
 
+<script>
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#blah')
+                    .attr('src', e.target.result)
+                    .width(150)
+                    .height(200);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>
 
 </html>

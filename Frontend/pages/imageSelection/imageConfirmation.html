@@ -1,6 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <style>
+.button {
+position: absolute;
+ margin-left: 565px;
+  margin-top: 500px;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+
     <meta charset="utf-8">
     <title>Confirmation</title>
     <link rel="stylesheet" media="screen" href="../LoginRegister/styles.css">
@@ -11,36 +52,38 @@
 
 <div id='cssmenu'>
     <ul>
-        <li class='active'><a href='index.html'><span>Home</span></a></li>
-        <li><a href='#'><span>How it works</span></a></li>
-        <li><a href='#'><span>The Team</span></a></li>
-        <li><a href='#'><span>Contact us</span></a></li>
-        <li><a href='#'><span>Account</span></a></li>
-        <li><a href='#'><span>Settings</span></a></li>
-        <li><a href='#'><span></span></a></li>
-        <li><a href='#'><span></span></a></li>
-        <li><a href='#'><span></span></a></li>
-        <li><a href='#'><span></span></a></li>
-        <li><a href='#'><span></span></a></li>
-        <li><a href='#'><span></span></a></li>
-        <li><a href='#'><span></span></a></li>
-        <li><a href='#'><span></span></a></li>
-        <li><a href='#'><span></span></a></li>
-        <li class='last'><a href='#'><span></span></a></li>
-    </ul>
+    <li class='active'><a href='../Home/home.html'><span>Home</span></a></li>
+    <li><a href='../Home/howItWorks.html'><span>How it works</span></a></li>
+    <li><a href='../Home/meetTheTeam.html'><span>The Team</span></a></li>
+    <li><a href='../Home/contact.html'><span>Contact us</span></a></li>
+    <li><a href='../Home/account.html'><span>Account</span></a></li>
+    <li><a href='../Home/settings.html'><span>Settings</span></a></li>
+    <li><a href='#'><span></span></a></li>
+    <li><a href='#'><span></span></a></li>
+    <li><a href='#'><span></span></a></li>
+    <li><a href='#'><span></span></a></li>
+    <li><a href='#'><span></span></a></li>
+    <li><a href='#'><span></span></a></li>
+    <li><a href='#'><span></span></a></li>
+    <li><a href='#'><span></span></a></li>
+    <li><a href='#'><span></span></a></li>
+    <li class='last'><a href='#'><span></span></a></li>
+</ul>
 </div>
 
 <form action="../modelLoad/loadModel.html" method="post">
 <div class="imgContainer">
-    <p>This is the image you have selected:</p>
+    <h1><p>This is the image you have selected:</p></h1>
     <img src="../images/2.jpg" height="350" width="600"/>
 </div>
 <div class="maskContainer">
-    <p>This is the mask you have selected:</p>
+    <h1> <p>This is the mask you have selected:</p></h1>
     <img src="../images/1.jpg" height="350" width="600"/>
 </div>
+    <button class="button" style="vertical-align:middle"><span>Next  </span></button>
 
 </form>
+
 
 
 </body>

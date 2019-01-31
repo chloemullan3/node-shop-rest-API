@@ -18,6 +18,16 @@ hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padd
 input,select{vertical-align:middle}
 li{list-style:none}
 
+#item {
+
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 150px;
+  left: 32%;
+  transition: all 1s;
+}
+
 .logo {
   border-radius: 50%;
   position: absolute;
@@ -42,7 +52,9 @@ li{list-style:none}
     padding: 20px;
     border-radius: 4px;
     box-sizing: border-box;
-    z-index: 100;
+        z-index:0;
+
+
 }
 
 #cssmenu ul {
@@ -326,7 +338,6 @@ position: absolute;
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 100%;
 }
 
 .button:hover {
