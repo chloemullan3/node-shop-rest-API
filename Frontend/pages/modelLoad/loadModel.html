@@ -40,6 +40,26 @@ position: absolute;
   opacity: 1;
   right: 0;
 }
+
+.loadButton{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 200px;
+    color: white;
+}
+
+.class1 {
+  max-height:0px;
+  transition:max-height 1s;
+  overflow:hidden;
+}
+
+.class2 {
+  max-height:0px;
+  transition:max-height 1s;
+  overflow:hidden;
+}
+
 </style>
     <meta charset="utf-8">
     <title>Model Load</title>
@@ -68,24 +88,32 @@ position: absolute;
     </ul>
 </div>
 
-<button class="button" onclick="show()" style="vertical-align:middle"><span>Load New Image  </span></button>
+<button class="button" onclick="myLoop()" style="vertical-align:middle"><span>Start Removing  </span></button>
 
-<div class="loadContainer">
-    <div id="id1" class="class1">
-        <img data-src="../images/output.png" style="margin-top: 100px;" alt="">
-    </div>
+<div id="id1" class="class1">
+    <button onclick="showImage()" style="vertical-align:middle"><span>Load Image  </span></button>
+</div>
+
+<div id="id2" class="class2">
+    <img src="../images/output.png" alt="">
 </div>
 
 </body>
 <div id="particles-js"></div>
 
 <script>
-    function show() {
-  document.getElementById('id1').style.maxHeight = "200px";
-  var images = document.querySelectorAll("#id1 img");
-  for(var i = 0; i < images.length; i++)
-  {
-    images[i].src = images[i].getAttribute('data-src');
-  }
+function myLoop() {           //  create a loop function
+   setTimeout(function myLoop (i) {
+   setTimeout(function () {
+      document.getElementById('id1').style.maxHeight = "200px";          //  your code here
+      if (--i) myLoop(i);      //  decrement i and call myLoop again if i > 0
+   }, 3000)
+})(10);
 }
 </script>
+
+<script>
+    function showImage() {
+      document.getElementById('id2').style.maxHeight = "200px";
+    }
+  </script>
