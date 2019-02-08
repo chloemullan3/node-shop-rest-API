@@ -49,15 +49,21 @@ position: absolute;
 }
 
 .class1 {
+position: absolute;
+ margin-left: 650px;
+  margin-top: 200px;
   max-height:0px;
   transition:max-height 1s;
-  overflow:hidden;
+  <!--overflow:hidden;-->
 }
 
 .class2 {
   max-height:0px;
-  transition:max-height 1s;
   overflow:hidden;
+  position: absolute;
+ margin-left: 370px;
+  margin-top: 200px;
+  height
 }
 
 </style>
@@ -95,7 +101,7 @@ position: absolute;
 </div>
 
 <div id="id2" class="class2">
-    <img src="../images/output.png" alt="">
+    <img src="../images/output.png" height="400" width="650">
 </div>
 
 </body>
@@ -107,13 +113,18 @@ function myLoop() {           //  create a loop function
    setTimeout(function () {
       document.getElementById('id1').style.maxHeight = "200px";          //  your code here
       if (--i) myLoop(i);      //  decrement i and call myLoop again if i > 0
-   }, 3000)
+   }, 9000)
 })(10);
 }
 </script>
 
 <script>
-    function showImage() {
-      document.getElementById('id2').style.maxHeight = "200px";
-    }
+    function showImage() {           //  create a loop function
+   setTimeout(function myLoop (i) {
+   setTimeout(function () {
+      document.getElementById('id2').style.maxHeight = "500px";          //  your code here
+      if (--i) myLoop(i);      //  decrement i and call myLoop again if i > 0
+   }, 3000)
+})(10);
+}
   </script>
