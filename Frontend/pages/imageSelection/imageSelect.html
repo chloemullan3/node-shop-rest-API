@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <title>Image Select</title>
     <link rel="stylesheet" media="screen" href="../LoginRegister/styles.css">
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>-->
+
 </head>
 <body>
 
 <img src="../images/removerlogo.png" class="logo" alt="Avatar">
-
 
 <div id='cssmenu'>
     <ul>
@@ -39,19 +40,25 @@
         <h2><select>
             <option value="image1" style="background-image:url(../images/image1.png);">image1</option>
             <option value="image2"  style="background-image:url(../images/image2.png);">image2</option>
-            <option value="image3" style="background-image:url(../images/image3.png);">image3</option>
         </select></h2>
 
         <p><h2>Select the mask you want to use:</h2></p>
         <p><h2><select>
         <option value="image1" style="background-image:url(../images/image1.png);">image1</option>
         <option value="image2"  style="background-image:url(../images/image2.png);">image2</option>
-        <option value="image3" style="background-image:url(../images/image3.png);">image3</option>
     </select></h2></p>
         <p><h2><input type="submit" value="Next"><br></h2></p>
+        <h2><a href="../Home/getStarted.html">Click here to upload images!</a></h2>
     </form>
 </div>
 
 
 </body>
+
 <div id="particles-js"></div>
+
+<script>
+  $(document).ready(function(){
+    alert('You have no current images, would you like to upload some now?');
+  });
+</script>

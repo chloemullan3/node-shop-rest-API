@@ -54,7 +54,7 @@ position: absolute;
   margin-top: 200px;
   max-height:0px;
   transition:max-height 1s;
-  <!--overflow:hidden;-->
+  overflow:hidden;
 }
 
 .class2 {
@@ -128,3 +128,20 @@ function myLoop() {           //  create a loop function
 })(10);
 }
   </script>
+
+<script>
+    function show(){
+    var executed = false;
+    var loaded = function () {
+    if (!executed) {
+        $(".sk-rotating-plane").fadeOut("slow");
+        setTimeout(function () {
+            $('body').addClass('loaded');
+        }, 10);
+        executed = true;
+    }
+};
+$(window).on('load', loaded);
+setTimeout(loaded, 5000);
+    }
+</script>
